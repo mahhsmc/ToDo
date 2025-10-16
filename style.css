@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+
+body {
+    background-color: pink;
+}
+
+/* Altera o estilo do título (elemnto HTML "h1") */
+h1 {
+    /* Usa a fonte importada do google fonts*/
+     font-family: "BBH Sans Hegarty";
+     /* Altera a cor da fonte*/
+     color: rgb(219, 47, 139)
+}
+
+/* Altera o estilo do cartão (caixa de texto do botão de adicionar tarefa) */
+.card {
+    background-color: rgb(241, 106, 180);
+}
+
+/* Altera o estilo da caixa de texto "Adicionar nova tarefa" */
+input[type="text"] {
+    background-color: rgb(241, 106, 180);
+    border: 1px solid whitesmoke
+}
+/* Alterav o estilo do texto "Adicionar tarefa" na caixa de texto de */
+input[type="text"]::placeholder {
+    color: whitesmoke;
+}
+/* Altera o estilo da caixa de texto "Adicionar nova tarefa" ao clicar nela*/
+input[type="text"]:focus {
+    background-color: rgb(189, 45, 105);
+    color: whitesmoke;
+
+    /*Altera a cor da borda externa ao selecionar o campo*/
+    border-color: deeppink;
+    box-shadow: 0 1px 1px rgb(250, 152, 201) inset, 0 0 8px deeppink;
+    outline: 0 none;
+
+}
+#btn-nova-tarefa {
+    /* Altera o estilo do botão de 'Adicionar" nova tarefa*/
+    background-color: rgb(241, 106, 180);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+
+#btn-nova-tarefa:hover {
+    background-color: rgb(189, 45, 105);
+    color: whitesmoke;
+}
+
+/* Altera a cor de fundo das tarefas */
+.list-group-item {
+    color: whitesmoke;
+    background-color: rgb(241, 106, 180);
+    border: 1px solid whitesmoke;
+}
+
+/* Altera o estilo do botão de Concluir */
+.btn-success {
+    background-color: rgb(189, 45, 105);
+    border: whitesmoke;
+}
+
+/*Altera o estilo do botão de excluir */
+.btn-danger {
+    background-color: rgb(250, 152, 201);
+    border: whitesmoke;
+}
