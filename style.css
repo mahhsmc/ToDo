@@ -5,7 +5,7 @@ body {
 }
 
 /* Altera o estilo do título (elemnto HTML "h1") */
-h1 {
+h1.titulo {
     /* Usa a fonte importada do google fonts*/
      font-family: "BBH Sans Hegarty";
      /* Altera a cor da fonte*/
@@ -43,7 +43,6 @@ input[type="text"]:focus {
     color: whitesmoke;
     border: 1px solid whitesmoke;
 }
-
 #btn-nova-tarefa:hover {
     background-color: rgb(189, 45, 105);
     color: whitesmoke;
@@ -57,13 +56,13 @@ input[type="text"]:focus {
 }
 
 /* Altera o estilo do botão de Concluir */
-.btn-success {
+.btn-concluir {
     background-color: rgb(189, 45, 105);
     border: whitesmoke;
 }
 
 /*Altera o estilo do botão de excluir */
-.btn-danger {
+.btn-excluir {
     background-color: rgb(250, 152, 201);
     border: whitesmoke;
 }
