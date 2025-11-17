@@ -66,3 +66,9 @@ input[type="text"]:focus {
     background-color: rgb(250, 152, 201);
     border: whitesmoke;
 }
+
+/*feedback visual das operações de arrastar e soltar (drag & drop) de tarefas */
+.dragging {
+    opacity: 0.5;
+    background: pink;
+}
